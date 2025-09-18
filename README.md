@@ -1,6 +1,6 @@
 # 📚 StudyMate – Full-Stack Student Productivity App
 
-**StudyMate** is a full-stack web application built to help students **manage tasks, track study time, and improve productivity**. This project demonstrates hands-on experience with **Java, Spring Boot, React, and REST APIs**, making it a great showcase for software engineering internships.
+**StudyMate** is a student-focused productivity app that **helps manage tasks, track study sessions, and boost focus**. Built with **Java, Spring Boot, React, and REST APIs**, it demonstrates hands-on full-stack development skills.
 
 ---
 
@@ -38,13 +38,27 @@ Add visuals inside `/assets` folder:
 ```markdown
 ![Task List](assets/tasks.png)
 ![Timer](assets/timer.gif)
-⚡ Getting Started
 
-## Prerequisites
 
--Java 17+
--Maven
--Node.js & npm
+## ⚡ Getting Started
+
+Follow these steps to run StudyMate locally:
+
+### Prerequisites
+
+Make sure you have the following installed:
+
+- **Java 17+**  
+- **Maven**  
+- **Node.js & npm**  
+
+---
+
+### Clone the Repository
+
+```bash
+git clone https://github.com/<your-username>/StudyMate.git
+cd StudyMate
 
 Clone the repo
 git clone https://github.com/<your-username>/StudyMate.git
@@ -54,6 +68,7 @@ Run Backend
 cd backend
 mvn clean install
 mvn spring-boot:run
+
 
 
 Backend API available at http://localhost:8080/api/tasks
@@ -68,20 +83,22 @@ Frontend available at http://localhost:3000
 
 ## 🎯 Usage
 
-Add new tasks
-Start the timer for each task
-Stop the timer to save study time
-Complete tasks when done
-Check total study time per task
+- 📝 Add new tasks  
+- ⏱️ Start the timer for each task  
+- ⏹️ Stop the timer to save study time  
+- ✅ Complete tasks when done  
+- 📊 Check total study time per task  
+
+---
 
 ## 🌟 Future Improvements
 
-Daily/weekly study stats dashboard
-Gamification: points, levels, achievements
-Dark mode toggle
-Database integration (MongoDB/MySQL)
-AI-based study recommendations (optional Python integration)
+- 📅 Daily/weekly study stats dashboard  
+- 🏆 Gamification: points, levels, achievements  
+- 🌙 Dark mode toggle  
+- 🗄️ Database integration (MongoDB/MySQL)  
+- 🤖 AI-based study recommendations (optional Python integration)  
+
 
 📄 License
-
 MIT License © 2025
