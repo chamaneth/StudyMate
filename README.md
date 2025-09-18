@@ -1,55 +1,53 @@
-📚 StudyMate
+# 📚 StudyMate – Full-Stack Student Productivity App
 
+**StudyMate** is a full-stack web application built to help students **manage tasks, track study time, and improve productivity**. This project demonstrates hands-on experience with **Java, Spring Boot, React, and REST APIs**, making it a great showcase for software engineering internships.
 
-A modern task manager for students to track study time and stay productive!
+---
 
-Features
+## 🚀 Features
 
-✅ Add, delete, and complete tasks
+- ✅ Add, delete, and complete tasks  
+- ⏱️ Start/stop timers to track study time per task  
+- 📊 View total study time for each task  
+- 🎨 Responsive UI with React + Tailwind CSS  
+- 🔗 Backend powered by Java Spring Boot with RESTful APIs  
 
-⏱️ Start/stop timers to track study time for each task
+---
 
-📊 View total study time per task
+## 🛠️ Tech Stack
 
-🎨 Beautiful, responsive UI with Tailwind CSS
+**Backend:** Java 17, Spring Boot, Maven  
+**Frontend:** React, Tailwind CSS, Fetch API  
+**Version Control:** Git/GitHub  
 
-🔗 RESTful API backend with Spring Boot
+---
 
-Tech Stack
-Backend	Frontend
-Java 17	React
-Spring Boot	Tailwind CSS
-Maven	Fetch API
-Badges
+## 🏷️ Badges
 
+![Java](https://img.shields.io/badge/Java-17-blue?logo=java)  
+![Spring Boot](https://img.shields.io/badge/Spring%20Boot-3.5-green?logo=spring)  
+![React](https://img.shields.io/badge/React-18-blue?logo=react)  
+![License](https://img.shields.io/badge/License-MIT-green)  
 
+---
 
+## 📸 Screenshots / GIFs
 
+Add visuals inside `/assets` folder:
 
+```markdown
+![Task List](assets/tasks.png)
+![Timer](assets/timer.gif)
+⚡ Getting Started
 
+## Prerequisites
 
-
-Screenshots / GIFs
-
-Task List & Timer
-
-
-Add / Complete Tasks
-
-
-(Replace the above links with actual screenshots or GIFs of your app.)
-
-Getting Started
-Prerequisites
-
-Java 17 or higher
-
-Maven
-
-Node.js & npm
+-Java 17+
+-Maven
+-Node.js & npm
 
 Clone the repo
-git clone https://github.com/your-username/StudyMate.git
+git clone https://github.com/<your-username>/StudyMate.git
 cd StudyMate
 
 Run Backend
@@ -58,7 +56,7 @@ mvn clean install
 mvn spring-boot:run
 
 
-Backend API: http://localhost:8080/api/tasks
+Backend API available at http://localhost:8080/api/tasks
 
 Run Frontend
 cd frontend
@@ -66,28 +64,24 @@ npm install
 npm start
 
 
-Frontend: http://localhost:3000
+Frontend available at http://localhost:3000
 
-Usage
+## 🎯 Usage
 
-Add new tasks in the input field
-
-Start the timer when studying
-
+Add new tasks
+Start the timer for each task
 Stop the timer to save study time
-
 Complete tasks when done
+Check total study time per task
 
-View total study time per task
+## 🌟 Future Improvements
 
-Future Features
+Daily/weekly study stats dashboard
+Gamification: points, levels, achievements
+Dark mode toggle
+Database integration (MongoDB/MySQL)
+AI-based study recommendations (optional Python integration)
 
-📅 Daily/weekly study stats dashboard
+📄 License
 
-🎮 Gamification: points, levels, and achievements
-
-🌙 Dark mode
-
-License
-
-MIT License © 202
+MIT License © 2025
